@@ -3,7 +3,7 @@ ec2_resource = boto3.resource('ec2') #we need to add the name of AWS service EC2
 
 #we add all the information related to EC2 instance
 instances = ec2_resource.create_instances(
-    ImageId = 'ami-09b0a86a2c84101e1',
+    ImageId = 'ami-0850ab57897dcaa32',
     MinCount = 1, #number of instances
     MaxCount = 1, # number of instances
     InstanceType = 't2.micro', # instance type
