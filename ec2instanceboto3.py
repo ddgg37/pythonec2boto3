@@ -8,7 +8,7 @@ instances = ec2_resource.create_instances(
     MaxCount = 1, # number of instances
     InstanceType = 't2.micro', # instance type
     KeyName = 'instcopy1', #this is the key pair
-    SecurityGroupIds=["sg-093c18ac4444e9fb1"],
+    SecurityGroupIds=["sg-093c18ac4444e9fb1","sg-b84fdfd9"],
     BlockDeviceMappings = [
         {
             'DeviceName': '/dev/sda1',
