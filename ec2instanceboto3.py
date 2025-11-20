@@ -39,7 +39,7 @@ instances = ec2_resource.create_instances(
             'Tags': [
                 {
                     'Key': 'Name', 
-                    'Value': 'Pythontest' # name of the EC2 instance name
+                    'Value': 'Pythontestwithwebhook' # name of the EC2 instance name
                 },
                 {
                     'Key': 'Department',
